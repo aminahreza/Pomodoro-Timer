@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Pomodoro Timer</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+    <body>
+        <div class="container">
+        <h1>pomodoro</h1>
+        <!-- <div class="app-message">press start to begin</div> -->
+            <div class="section-container">
+                <button id="focus" class="btn btn-focus">Focus</button>
+                <button id="shortbreak" class="btn btn-shortbreak">Short Break</button>
+                <button id="longbreak" class="btn btn-longbreak">Long Break</button>
+            </div>
+            <div class="time-btn-container">
+                <span id="time"></span>
+                <div class="btn-container">
+                    <button id="start" class="show">Start</button>
+                    <button id="pause" class="hide">Pause</button>
+                    <button id="restart" class="hide">
+                        <i class="fa-solid fa-rotate-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="./app.js"></script> 
+</html>
